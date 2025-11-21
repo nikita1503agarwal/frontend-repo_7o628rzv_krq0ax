@@ -3,7 +3,55 @@
 > vite
 
 
-  VITE v5.4.20  ready in 281 ms
+  VITE v5.4.20  ready in 304 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.3.174:3000/
+7:20:08 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Developers.jsx:13:13: ERROR: Expected "}" but found ":"
+7:20:10 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Developers.jsx:13:13: ERROR: Expected "}" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Developers.jsx:13:13
+  
+  Expected "}" but found ":"
+  11 |              <pre className="mt-2 text-xs overflow-auto"><code>curl -X POST {baseUrl}/auth/otp/request \
+  12 |   -H 'Content-Type: application/json' \
+  13 |   -d '{"email":"you@example.com"}'</code></pre>
+     |               ^
+  14 |              <p className="text-sm text-blue-200 mt-4">Verify OTP</p>
+  15 |              <pre className="mt-2 text-xs overflow-auto"><code>curl -X POST {baseUrl}/auth/otp/verify \
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+7:20:28 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Developers.jsx:13:13: ERROR: Expected "}" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Developers.jsx:13:13
+  
+  Expected "}" but found ":"
+  11 |              <pre className="mt-2 text-xs overflow-auto"><code>curl -X POST {baseUrl}/auth/otp/request \
+  12 |   -H 'Content-Type: application/json' \
+  13 |   -d '{"email":"you@example.com"}'</code></pre>
+     |               ^
+  14 |              <p className="text-sm text-blue-200 mt-4">Verify OTP</p>
+  15 |              <pre className="mt-2 text-xs overflow-auto"><code>curl -X POST {baseUrl}/auth/otp/verify \
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
